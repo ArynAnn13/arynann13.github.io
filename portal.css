@@ -1,0 +1,42 @@
+ul {
+  list-style:none;
+  padding-left: 0px;
+}
+
+ul a {
+  font-family: 'Inconsolata', monospace;
+   color:black;
+   font-weight:200px;
+   text-decoration: none;
+}
+
+.posts a {
+  display: block;
+  text-align: center;
+}
+
+header{
+  text-align: center;
+}
+
+h1 {
+  margin-left: 0px;
+  font-family: 'Lobster', cursive;
+  font-weight: 900px;
+  color:black;
+  text-align: center;
+}
+
+body {
+    background-image: url("images/runway-background.jpg");
+    background-size: 100%;
+    header-size: 100%;
+}
+
+footer{
+  text-align: center;
+}
+
+nav li {
+  text-align: center;
+}
