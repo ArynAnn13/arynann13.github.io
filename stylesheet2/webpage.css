@@ -1,0 +1,136 @@
+h1 {
+  font-family: 'Bungee Hairline', cursive;
+  font-size:75px;
+}
+
+ul {
+  list-style:none;
+  padding-left: 0px;
+}
+
+.image1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 500px;
+  top:390px;
+  left: 710px;
+}
+
+.image2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 550px;
+    bottom: 550px;
+    left: 710px;
+  }
+
+.image3{
+  position: absolute;
+  left:710px;
+  top:550px;
+}
+
+
+main {
+  width: 750px;
+  position: relative;
+  float: left;
+
+
+}
+
+.mainimage{
+  width: 950px;
+  border-style:inset;
+  border-color: pink;
+  border-width: 20px
+}
+
+.homepage{
+  height:50px
+  width:25px;
+}
+
+nav{
+  float: right;
+  padding: 40px;
+
+
+}
+
+.paragraph{
+  position: absolute;
+  bottom: 300px;
+  left: 170px;
+
+}
+
+.paragraph2{
+  position:absolute;
+  bottom:650px;
+  left:250px;
+}
+
+.homeparagraph{
+  position: absolute;
+  left:250px;
+  width: 700px
+
+
+
+}
+
+.footer{
+  list-style: none;
+  position: absolute;
+right: 0;
+top: 1720px;
+left: 0;
+padding: 1rem;
+background-color: #E555B2;
+text-align: center;
+
+}
+
+.image4 {
+text-align: center;
+position: relative;
+left:100px;
+border-style:inset;
+border-color: pink;
+border-width: 10px
+top:500px
+}
+
+.image5{
+  text-align: center;
+  position: relative;
+  left:300px;
+  border-style:inset;
+  border-color: pink;
+  border-width: 10px
+
+}
+
+.image6{
+  text-align: center;
+  position: relative;
+  left:300px;
+  border-style:inset;
+  border-color: pink;
+  border-width: 10px
+}
+
+a {
+    color: #E085B2;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:#DD24A9;
+     text-decoration:none;
+     cursor:pointer;
+}
