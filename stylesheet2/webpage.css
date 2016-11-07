@@ -134,3 +134,7 @@ a:hover
      text-decoration:none;
      cursor:pointer;
 }
+
+.timeline{
+  position: absolute;
+}
