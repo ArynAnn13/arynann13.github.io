@@ -13,7 +13,7 @@ ul {
   height: 100px;
   width: 100px;
   right: 500px;
-  top:390px;
+  bottom: 700px;
   left: 710px;
 }
 
@@ -56,6 +56,7 @@ main {
 nav{
   float: right;
   padding: 40px;
+  }
 
 
 }
@@ -137,4 +138,76 @@ a:hover
 
 .timeline{
   position: absolute;
+  height: 100px;
+  width: 300px;
+  bottom: 755px;
+  left:350px;
+}
+
+.past-paragraph{
+position:relative;
+  bottom:200px;
+  left: 150px;
+  color: #E085B2;
+  text-decoration: none;
+}
+
+.present-paragraph{
+  position:relative;
+    bottom:230px;
+    left: 150px;
+    color: #E085B2;
+    text-decoration: none;
+}
+
+.image-machine{
+position: absolute;
+height: 100px;
+width: 100px;
+right: 550px;
+bottom: 600px;
+left: 710px;
+}
+
+.image-runway{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 500px;
+  bottom: 750px;
+  left: 710px;
+}
+
+.future-paragraph{
+  position:relative;
+    bottom:215px;
+    left: 150px;
+    color: #E085B2;
+    text-decoration: none;
+}
+
+.tech-image{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 550px;
+  bottom: 570px;
+  left: 710px;
+}
+
+.sources{
+  text-decoration: underline;
+ text-align: center;
+ position: absolute;
+ right: 300px;
+ font-size: 30px
+ 
+
+}
+
+.nav-sources{
+  float: right;
+  position: absolute;
+  left: 600px;
+top: 10px;
 }
