@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* ~~~START CSS RESET~~~ */
+=======
+>>>>>>> origin/master
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -32,7 +35,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: sans-serif;
+>>>>>>> origin/master
   background-color: #DBD2D2;
 }
 ol, ul {
@@ -60,7 +67,11 @@ table {
 .wrapper {
   max-width: 1024px;
   margin: auto;
+<<<<<<< HEAD
   background-color: #DBD2D2;
+=======
+  background-color: #bbb;
+>>>>>>> origin/master
 }
 
 /* ~~~ end structural styles ~~~ */
@@ -83,13 +94,23 @@ header {
 .headline-wrapper {
   display: table-cell;
   vertical-align: bottom;
+<<<<<<< HEAD
   padding-left: 5%;
+=======
+  padding-left: 250%;
+
+
+>>>>>>> origin/master
 }
 
 h1 {
   font-size: 2em;
   font-weight: 700;
+<<<<<<< HEAD
   margin-bottom: 1%;
+=======
+  margin-bottom: 5%;
+>>>>>>> origin/master
 }
 
 /* tablet */
@@ -104,34 +125,65 @@ h1 {
   .headline-wrapper {
     display: block;
     padding: 0;
+<<<<<<< HEAD
     text-align: center;
   }
 }
 
+=======
+    right: 400px;
+  }
+}
+
+/* Change font size of specific letter */
+h1 span {
+  font-size: 24px
+}
+
+>>>>>>> origin/master
 /* ~~~ end header styles ~~~ */
 
 /* ~~~ START NAV STYLES ~~~ */
 
 .main-nav {
+<<<<<<< HEAD
   width: 75%;
   margin: auto;
   background-color: white;
 
+=======
+  width: 100%;
+  margin: auto;
+background-color: white;
+>>>>>>> origin/master
 
 }
 
 .main-nav ul {
   width: 100%;
+<<<<<<< HEAD
   display: table;
 }
 
 .main-nav li {
   width: 25%;
+=======
+  display:table;
+
+}
+
+.main-nav li {
+  width: 10%;
+>>>>>>> origin/master
   height: 48px;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+<<<<<<< HEAD
 
+=======
+  color: black;
+>>>>>>> origin/master
 }
 
 a, a:visited {
@@ -190,6 +242,10 @@ main {
 
 .portfolio-nav .row1 {
   display: table-row;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }
 
 .portfolio-nav .row1 li {
@@ -200,6 +256,47 @@ main {
   display: table-row;
 }
 
+<<<<<<< HEAD
+=======
+.column2 {
+  border-style:solid;
+  border-color: black;
+  border-width: 5px;
+ height: 500px;
+ width: 200px;
+ background-color: white;
+
+}
+
+.img1 {
+  border-style:solid;
+  border-color: black;
+  border-width: 5px
+}
+
+.img2 {
+  border-style:solid;
+  border-color: black;
+  border-width: 5px
+}
+
+.img3 {
+  border-style:solid;
+  border-color: black;
+  border-width: 5px
+}
+
+.img4 {
+  border-style:solid;
+  border-color: black;
+  border-width: 5px
+}
+
+
+.right-content {
+  display: table-cell;
+}
+>>>>>>> origin/master
 /* mobile */
 @media (max-width: 375px) {
 
@@ -225,6 +322,10 @@ figure {
 .portfolio-img {
   width: 90%;
   display: table-cell;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 }
 
 figcaption {
@@ -250,7 +351,44 @@ figcaption p {
   }
 }
 
+<<<<<<< HEAD
 footer {
   background-color: white;
   text-align:center;
+=======
+/* ~~~ end main content styles ~~~ */
+
+/* ~~~ START FOOTER STYLES ~~~ */
+
+footer {
+  width: 75%;
+  margin: auto;
+  height: 50px;
+  text-align: center;
+  line-height: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px
+
+
+
+}
+
+direction: rtl;
+}
+
+.flex-container {
+display: -webkit-flex;
+display: flex;
+width: 400px;
+height: 250px;
+background-color: lightgrey;
+}
+
+.flex-item {
+background-color: white;
+width: 100px;
+height: 100px;
+margin: 10px;
+>>>>>>> origin/master
 }
