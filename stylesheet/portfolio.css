@@ -135,6 +135,7 @@ h1 {
 	padding-right: 10px;
 
 
+
 }
 
 .main-nav ul {
@@ -159,16 +160,37 @@ a:hover, a:active {
   color: lightgray;
 }
 
-.aboutme :first-letter {
-    font-size: 400%;
-    color: #FC8DF7;
+.flex-container {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+}
 
+.flex-item1 {
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+
+.flex-item2 {
+		    background-color: cornflowerblue;
+		    width: 400px;
+		    height: 400px;
+		    margin: 10px;
+			}
+
+.graphic-paragraph{
+	display:table
+	border-style:solid;
+	
+}
 /* mobile */
 @media (max-width: 375px) {
   .main-nav ul {
     display: block;
   }
-
+}
   .main-nav ul li {
     width: 100%;
     display: block;
@@ -283,12 +305,13 @@ figcaption p {
 
 footer {
   width: 75%;
-  margin: auto;
+  margin:auto;
   height: 20px;
   text-align: center;
   line-height: 20px;
 	background-color: white;
 	padding-top: 10px;
+
 
 }
 
