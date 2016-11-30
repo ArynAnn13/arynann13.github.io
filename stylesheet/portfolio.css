@@ -141,11 +141,13 @@ p{
 	margin-top: 20px;
 
 
+
 }
 
 .main-nav ul {
   width: 90%;
   display: table;
+
 }
 
 .main-nav li {
@@ -177,7 +179,8 @@ a:hover, a:active {
 .cell {
     display: table-cell;
 		width:30%;
-
+ vertical-align: top;
+ border: 2px solid black;
 	}
 
 
